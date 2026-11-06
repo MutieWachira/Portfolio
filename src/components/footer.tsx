@@ -3,10 +3,7 @@ import { contactInfo, socialLinks } from "@/data/contact";
 
 const footerLinks = [
   { label: "Home", href: "/home#home" },
-  { label: "About", href: "/home#about" },
-  { label: "Skills", href: "/home#skills" },
   { label: "Projects", href: "/home#projects" },
-  { label: "Experience", href: "/home#experience" },
   { label: "Contact", href: "/home#contact" },
 ];
 
