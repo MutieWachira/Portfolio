@@ -6,10 +6,7 @@ import ThemeToggle from "./theme-toggle";
 
 const navigationLinks = [
   { label: "Home", href: "/home#home" },
-  { label: "About", href: "/home#about" },
-  { label: "Skills", href: "/home#skills" },
   { label: "Projects", href: "/home#projects" },
-  { label: "Experience", href: "/home#experience" },
   { label: "Contact", href: "/home#contact" },
 ];
 

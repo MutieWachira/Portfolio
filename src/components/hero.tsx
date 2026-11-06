@@ -45,42 +45,99 @@ export default function Hero() {
             {profile.introduction}
           </p>
 
-                    {/* Action buttons */}
-          <div className="mt-10 flex flex-wrap items-center gap-4">
+          <div className="mt-10 flex flex-wrap items-center gap-3">
             <a
               href="#projects"
-              className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary-hover focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary"
+              className="group inline-flex min-h-12 items-center justify-center gap-2.5 rounded-full bg-[#c9ef5b] px-6 py-3 text-sm font-bold text-[#17231d] shadow-[0_8px_24px_-10px_rgba(201,239,91,0.65)] transition duration-200 hover:-translate-y-0.5 hover:bg-[#daf58d] hover:shadow-[0_12px_30px_-10px_rgba(201,239,91,0.75)] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#c9ef5b]"
             >
               Explore my work
-              <span aria-hidden="true">↗</span>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.8"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="h-4 w-4 transition-transform group-hover:translate-x-0.5"
+                aria-hidden="true"
+              >
+                <path d="M5 12h14m-6-6 6 6-6 6" />
+              </svg>
             </a>
 
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 bg-primary rounded-full border border-border px-7 py-3.5 text-sm font-semibold text-foreground transition-colors hover:bg-surface-secondary focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary"
+              className="group inline-flex min-h-12 items-center justify-center gap-2.5 rounded-full border border-white/20 bg-white/[0.06] px-6 py-3 text-sm font-semibold text-white/90 backdrop-blur-sm transition duration-200 hover:-translate-y-0.5 hover:border-white/35 hover:bg-white/[0.11] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#c9ef5b]"
             >
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.7"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="h-4 w-4 text-[#c9ef5b]"
+                aria-hidden="true"
+              >
+                <rect x="3" y="5" width="18" height="14" rx="2" />
+                <path d="m3 7 9 6 9-6" />
+              </svg>
               Get in touch
             </a>
 
-            {/* View CV */}
             <a
               href="/documents/Resume2.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-primary rounded-full border border-border px-7 py-3.5 text-sm font-semibold text-foreground transition-colors hover:border-primary hover:text-primary focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary"
+              className="group inline-flex min-h-11 items-center justify-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-4 py-2.5 text-xs font-semibold text-white/65 transition duration-200 hover:border-white/25 hover:bg-white/[0.08] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#c9ef5b]"
             >
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.7"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="h-4 w-4 text-[#c9ef5b]/80 transition-colors group-hover:text-[#c9ef5b]"
+                aria-hidden="true"
+              >
+                <path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9Z" />
+                <path d="M14 3v6h6m-10 4h4m-4 4h4" />
+              </svg>
               View CV
-              <span aria-hidden="true">↗</span>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.7"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="h-3.5 w-3.5 opacity-60 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                aria-hidden="true"
+              >
+                <path d="M7 17 17 7M7 7h10v10" />
+              </svg>
             </a>
 
-            {/* Download CV */}
             <a
               href="/documents/Resume2.pdf"
               download="Christopher-Wachira-CV.pdf"
-              className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary-hover focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary"
+              className="group inline-flex min-h-11 items-center justify-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-4 py-2.5 text-xs font-semibold text-white/65 transition duration-200 hover:border-white/25 hover:bg-white/[0.08] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#c9ef5b]"
             >
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.7"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="h-4 w-4 text-[#c9ef5b]/80 transition-colors group-hover:text-[#c9ef5b]"
+                aria-hidden="true"
+              >
+                <path d="M12 3v12m0 0 4-4m-4 4-4-4" />
+                <path d="M5 16v4h14v-4" />
+              </svg>
               Download CV
-              <span aria-hidden="true">↓</span>
             </a>
           </div>
 
